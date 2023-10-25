@@ -1,0 +1,11 @@
+.container{
+    width: 100vw;
+    height: 100vw;
+    background-color: darkred;
+}
+
+@media only screen and (max-width: 768px){
+    .container{
+        background-color: blue;
+    }
+}
